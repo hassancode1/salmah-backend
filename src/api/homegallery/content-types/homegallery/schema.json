@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homegalleries",
+  "info": {
+    "singularName": "homegallery",
+    "pluralName": "homegalleries",
+    "displayName": "homegallery",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "instagramlink": {
+      "type": "string"
+    }
+  }
+}

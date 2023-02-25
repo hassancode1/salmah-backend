@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "thingsgalleries",
+  "info": {
+    "singularName": "thingsgallery",
+    "pluralName": "thingsgalleries",
+    "displayName": "thingsgallery",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
